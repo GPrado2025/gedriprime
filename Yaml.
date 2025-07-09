@@ -1,0 +1,42 @@
+name: Inserção de Imagem de Imóvel Sofisticado
+description: Adicione uma imagem discreta e elegante de imóvel ao repositório
+title: "[Imagem] Imóvel sofisticado - descrição breve"
+labels: [imagem, imóvel, luxo, documentação]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por contribuir com imagens de imóveis sofisticados!  
+        Este formulário ajuda a manter a organização e a estética do projeto.
+
+  - type: input
+    id: nome_arquivo
+    attributes:
+      label: Nome do Arquivo
+      placeholder: "ex: fachada_moderno_sobrio.png"
+    validations:
+      required: true
+
+  - type: input
+    id: caminho
+    attributes:
+      label: Caminho do Arquivo
+      placeholder: "ex: assets/images/imoveis/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da Imagem
+      placeholder: "Fachada de imóvel com design contemporâneo e discreto, representando o conceito de quiet luxury"
+    validations:
+      required: true
+
+  - type: input
+    id: fonte
+    attributes:
+      label: Fonte da Imagem
+      placeholder: "ex: https://www.homify.com.br/livros_de_ideias/29038/casa-com-fachada-discreta-exibe-surpresa"
+    validations:
+      required: true
