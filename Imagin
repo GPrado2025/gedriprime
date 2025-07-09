@@ -1,0 +1,47 @@
+name: Inserção de Imagens
+description: Solicite ou documente a adição de imagens ao repositório
+title: "[Imagem] Breve descrição da imagem"
+labels: [imagem, melhoria, documentação]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por contribuir com imagens para este projeto! 📸  
+        Por favor, preencha os campos abaixo para garantir consistência e clareza.
+
+  - type: input
+    id: nome_arquivo
+    attributes:
+      label: Nome do Arquivo
+      description: Use nomes descritivos e sem espaços, com formato `.png`, `.jpg` ou `.webp`
+      placeholder: "ex: tela_login_dark_mode.png"
+    validations:
+      required: true
+
+  - type: input
+    id: caminho
+    attributes:
+      label: Caminho do Arquivo
+      description: Informe a pasta onde a imagem será inserida no projeto
+      placeholder: "ex: assets/images/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da Imagem
+      description: Explique o conteúdo da imagem e onde ela será usada no projeto
+      placeholder: "Imagem da tela de login com modo escuro, usada na seção de autenticação do README.md"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Verificações
+      options:
+        - label: O arquivo está nomeado corretamente
+        - label: A imagem está otimizada e em alta qualidade
+        - label: O local de upload está correto
+        - label: Incluí a imagem no `README.md` ou documentação correspondente
