@@ -16,7 +16,7 @@ body:
     attributes:
       label: Descrição da mídia
       description: Explique o que a mídia representa e onde será usada
-      placeholder: "Ex: Imagem da tela de login para o README.md"
+      placeholder: "https://www.iprojetei.com.br/upload/2241/1920x1080.jpg: Imagem da tela de login para o README.md"
     validations:
       required: true
   - type: input
@@ -30,6 +30,6 @@ body:
     id: link
     attributes:
       label: Link externo (se aplicável)
-      placeholder: "Ex: https://youtu.be/demo123"
+      placeholder: "https://youtu.be/01nrJxiJT8k"
     validations:
       required: false
