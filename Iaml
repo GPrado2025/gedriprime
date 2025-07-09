@@ -1,0 +1,38 @@
+name: Inserção de Mídia (Fotos/Vídeos)
+description: Solicite a inclusão de imagens ou vídeos no repositório
+title: "[Mídia] Descrição breve da mídia"
+labels: [midia, enhancement]
+body:
+  - type: input
+    id: tipo
+    attributes:
+      label: Tipo de mídia
+      description: Indique se é uma imagem, vídeo ou ambos
+      placeholder: "Imagem, Vídeo ou Ambos"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição da mídia
+      description: Explique o que a mídia representa e onde será usada
+      placeholder: "Ex: Imagem da tela de login para o README.md"
+    validations:
+      required: true
+
+  - type: input
+    id: local
+    attributes:
+      label: Caminho sugerido para upload
+      placeholder: "Ex: assets/images/tela_login.png"
+    validations:
+      required: false
+
+  - type: input
+    id: link
+    attributes:
+      label: Link externo (se aplicável)
+      placeholder: "Ex: https://youtu.be/demo123"
+    validations:
+      required: false
