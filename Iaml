@@ -11,7 +11,6 @@ body:
       placeholder: "Imagem, Vídeo ou Ambos"
     validations:
       required: true
-
   - type: textarea
     id: descricao
     attributes:
@@ -20,7 +19,6 @@ body:
       placeholder: "Ex: Imagem da tela de login para o README.md"
     validations:
       required: true
-
   - type: input
     id: local
     attributes:
@@ -28,7 +26,6 @@ body:
       placeholder: "Ex: assets/images/tela_login.png"
     validations:
       required: false
-
   - type: input
     id: link
     attributes:
