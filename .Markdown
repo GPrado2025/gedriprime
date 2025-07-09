@@ -1,0 +1,13 @@
+## 📸 Mídia do Projeto
+
+Este repositório utiliza imagens e vídeos para demonstrar funcionalidades. Para contribuir com mídia:
+
+- Adicione **imagens** em `assets/images/` com nomes descritivos
+- Adicione **vídeos** em `assets/videos/` ou forneça links externos (YouTube, Vimeo)
+- Inclua uma **descrição clara** no seu PR ou issue
+- Certifique-se de que os arquivos estão otimizados e não excedem os limites do GitHub
+
+Exemplo de uso no README:
+
+![Tela de Login](assets/images/tela_login.png)
+> Tela de login com autenticação via OAuth2
