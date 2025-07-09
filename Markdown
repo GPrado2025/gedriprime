@@ -1,0 +1,17 @@
+### 📸 Inclusão de Mídia (Fotos/Vídeos)
+
+Preencha os campos abaixo se este PR inclui imagens ou vídeos:
+
+- [ ] Adicionei imagens em `assets/images/`
+  - Nome dos arquivos:
+  - Descrição de cada imagem:
+
+- [ ] Adicionei vídeos em `assets/videos/` ou link externo
+  - Nome dos arquivos ou links:
+  - Descrição do conteúdo:
+
+- [ ] Verifiquei que os arquivos estão otimizados e com nomes descritivos
+- [ ] Atualizei o `README.md` ou documentação relevante com a nova mídia
+
+🔍 Observações adicionais:
+<!-- Escreva aqui qualquer detalhe extra sobre a mídia adicionada -->
